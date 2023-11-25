@@ -1,0 +1,260 @@
+html{
+    scroll-behavior: smooth;
+}
+:root {
+    --background:white;
+    --colorfirst:black;
+    --newscolor:#0093E9;
+    --primary:blue;    
+}
+
+body{
+    color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+.btn-custom{
+    background-color:var(--colorfirst);
+}
+
+
+/* Navbar Start */
+.navbar{
+    background-color:aliceblue;   
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    border-top: 1px solid rgba(60, 60, 60, 0.7);
+    border-bottom: 1px solid rgba(60, 60, 60, 0.7);
+}   
+.navbar .collapse a{
+    color: var(--newscolor);
+   
+}
+.navbar .collapse a:hover{
+    color: var(--newscolor);
+    display: inline-block;
+}
+
+
+/* caraousel Start */
+/* .carousel-item img{
+    border-radius: 20px;
+} */
+
+/* content Start */
+.content h1{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 70px;
+    font-family: 'poppins', sans-serif;
+    color: rgb(240, 248, 255);
+
+}
+.content h4{
+    margin-top: 5rem;
+
+}
+.content h1 span{
+    color:rgb(255, 255, 255);
+}
+.content p{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* about */
+.about img{
+    border-radius: 10%;
+}
+
+.about .card{
+    background-color: rgb(255, 255, 255, 0.8);
+}
+/* Roadmap */
+.roadmap{
+    margin-top:100px ;
+}
+.roadmap h2{
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+}
+
+
+/* footer and Framework */
+.footer, .framework, .class{
+    margin-top: 100px;
+}
+/* framework */
+.roadmap h4,.framework h4{
+    display:inline-block;
+}
+.roadmap .card a,.framework .card a{
+    display: inline-block;
+    color: var(--colorfirst);
+}
+.roadmap .card a:hover ,.framework .card a:hover{
+    color: var(--newscolor);
+}
+/* class */
+.class img{
+    border-radius: 50%;
+    width: 50%;
+}
+
+/* Subcription */
+.subcription{
+    margin-top:100px ;
+}
+.subcription a{
+    text-decoration: none;
+    color: var(--colorfirst);
+}
+.subcription a:hover{
+    color: var(--newscolor);
+}
+.subcription .btn{
+    font-size: 15px;
+    font-family: 'poppins', sans-serif;
+}
+/* review  */
+.review{
+    margin-top: 100px;
+}
+.review h1{
+    margin-top: 30px;
+}
+.review h2{
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+}
+.review img{
+    border-radius: 50%;
+}
+
+.review p{
+    color: rgb(0, 0, 0,0.7);
+    font-weight: 600;
+}
+
+
+/* Front End Developer */
+.frontend{
+    margin: 50px 0 50px;   
+}
+.frontend h1, h2{
+    padding: 30px 0 30px;
+    font-family: 'poppins', sans-serif;
+    line-height: 50px;
+
+}
+
+.frontend a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'poppins', 'sans-serif';
+}
+
+/* learning */
+
+.learning{
+    margin: 100px 0 50px;
+}
+.learning h4, h2{
+    color: rgb(0, 0, 0, 0.7);
+}
+.learning .card{
+    margin: 20px 0 20px;
+}
+.learning .card  a{
+    display: inline-block;
+    text-decoration: none;
+}
+.learning .number{
+    margin-bottom: 10px;
+    background-color: rgb(105, 101, 101,0.7);
+    border-radius: 100%;
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+.learning p{
+    margin-top: 11px;
+    margin-bottom: 1rem;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    
+}
+
+
+/* carrer guide */
+.carrerguide .form-control{
+    width: 600px;
+    height: 50px;
+  
+}
+
+
+/* roadmap all */
+.roadmapall{
+    margin: 50px 0 300px;
+}
+
+/* All div class road  */
+.road {
+    width: 180px;
+    height: 180px;
+    background-color: var(--background); 
+    border-radius: 50%; 
+    margin: 0 auto;
+}
+.road-language{
+    width: 160px;
+    height: 160px;
+    background-color: rgb(31, 207, 219); 
+    border-radius: 50%; 
+    margin: 0 auto;
+}
+.road-language2{
+    width: 130px;
+    height: 130px;
+    background-color:gainsboro; 
+    border-radius: 50%; 
+    margin: 0 auto;   
+
+}
+.road-language2  .js{
+    border-radius: 5%;
+}
+.road-all{
+
+    width: 180px;
+    height: 180px;
+    background-color: rgb(174, 220, 238); 
+    border-radius: 50%; 
+    margin: 0 auto;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
+/* Carrier Guide */
+
+.carrerguide{
+    margin: 100px 0 100px;
+}
+/* languange */
+.language{
+    margin: 100px 0 100px;
+}
+
+
+/* mobile phone */
+@media (max-width: 10px) {
+    html {
+      font-size: 55%;
+    }
+  }
